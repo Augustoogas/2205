@@ -1,0 +1,19 @@
+{
+  "name": "2205",
+  "version": "1.0.0",
+  "description": "Parcial para la materia lenguaje y programacion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Augustoogas/2205.git"
+  },
+  "author": "Ogas augusto\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[3~\u001b[CA\u001b[2~ugusto\u001b[2~sad\u001b[Dasd\u001b[Ddd\u001b[",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Augustoogas/2205/issues"
+  },
+  "homepage": "https://github.com/Augustoogas/2205#readme"
+}
