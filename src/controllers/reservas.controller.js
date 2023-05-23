@@ -84,4 +84,23 @@ const postReservas=(req,res)=>{
     }
 }
 
-module.exports={getAll,getReservasById,deleteReservasById,postReservas};
+
+const encontrarUltimaReserva=(req,res)=>{
+    const cliente=req.params.cliente;
+    const existe=reservas.find(r => r.cliente==cliente);
+    
+    if(existe){
+        const reservasClientes=reservas.filter(r => r.cliente == cliente);
+
+        const ultimaReserva=reservasClientes.length-1;
+
+        res.status(200).json({"ultima reserva":reservas[ultimaReserva]});
+
+    }else{
+        res.status(404).json({mensaje:'No encontrado'})
+    }
+
+    
+}
+
+module.exports={getAll,getReservasById,deleteReservasById,postReservas,encontrarUltimaReserva};
